@@ -1,0 +1,46 @@
+/*$background-nav: #000000;
+$background-body: #3a1818;
+$background-jumbotron: #ff0000;
+$background-card-footer: #cac1c1;
+$text-color: #fff;
+*/
+body {
+  background-color: #142850; }
+
+.navbar {
+  background-color: #00a8cc;
+  color: #fff;
+  height: 45px; }
+
+.jumbotron {
+  background-color: #27496d;
+  color: #fff; }
+
+.card-body {
+  height: 200px; }
+
+.card-footer {
+  background-color: #0c7b93;
+  color: #fff; }
+
+.img-container {
+  height: 200px;
+  overflow: auto; }
+
+a {
+  color: #fff; }
+
+::-webkit-scrollbar {
+  width: 2px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }

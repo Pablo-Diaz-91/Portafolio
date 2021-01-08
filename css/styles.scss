@@ -1,0 +1,67 @@
+/*$background-nav: #000000;
+$background-body: #3a1818;
+$background-jumbotron: #ff0000;
+$background-card-footer: #cac1c1;
+$text-color: #fff;
+*/
+
+$background-nav: #00a8cc;
+$background-body: #142850;
+$background-jumbotron: #27496d;
+$background-card-footer: #0c7b93;
+$text-color: #fff;
+
+body {
+    background-color: $background-body;
+}
+
+.navbar {
+    background-color: $background-nav;
+    color: $text-color;
+    height: 45px;
+}
+
+.jumbotron {
+    background-color: $background-jumbotron;
+    color: $text-color;
+}
+
+.card-body {
+    height: 200px;
+}
+
+.card-footer {
+    background-color: $background-card-footer;
+    color: $text-color;
+}
+
+.img-container {
+    height: 200px;
+    overflow: auto;
+}
+
+a {
+    color: $text-color;
+}
+
+
+//Scrollbars
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -4,31 +4,75 @@ $background-jumbotron: #ff0000;
 $background-card-footer: #cac1c1;
 $text-color: #fff;
 */
+/*tags*/
 body {
-  background-color: #142850; }
+  background-color: #142850;
+  color: #fff; }
 
+a {
+  color: #fff; }
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #7fdbff;
+  border-width: 15px;
+  margin: 50px auto;
+  width: 15%; }
+
+/*classes*/
 .navbar {
-  background-color: #00a8cc;
-  color: #fff;
-  height: 45px; }
+  background-color: #1c6abe;
+  color: #fff; }
+
+.navbar-brand {
+  padding: 0; }
 
 .jumbotron {
   background-color: #27496d;
-  color: #fff; }
+  color: #fff;
+  margin-top: 40px; }
+
+.profile-img {
+  border-radius: 50%;
+  width: 50%; }
 
 .card-body {
   height: 200px; }
-
-.card-footer {
-  background-color: #0c7b93;
-  color: #fff; }
 
 .img-container {
   height: 200px;
   overflow: auto; }
 
-a {
+.card-footer {
+  background-color: #0c7b93;
   color: #fff; }
+
+.skills-img {
+  width: 100%; }
+
+.table-dark {
+  background-color: #142850; }
+
+.stars {
+  text-align: start; }
+
+.footer {
+  background-color: #1c6abe;
+  padding: 50px 0 20px;
+  text-align: center; }
+
+.footer-link {
+  margin: 10px 20px; }
+
+.footer-link:hover {
+  color: #EAF6F6;
+  margin: 10px 20px; }
+
+.footer-p {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0; }
 
 ::-webkit-scrollbar {
   width: 2px; }

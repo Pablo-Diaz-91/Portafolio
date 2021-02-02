@@ -31,7 +31,7 @@ hr {
 .jumbotron {
   background-color: #27496d;
   color: #fff;
-  margin-top: 40px; }
+  margin: 40px auto 0; }
 
 .profile-img {
   border-radius: 50%;
@@ -73,6 +73,27 @@ hr {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0; }
+
+.icon {
+  font-size: 8rem; }
+
+.iconHTML {
+  color: orange; }
+
+.iconCSS {
+  color: #0ab4f7; }
+
+.iconJS {
+  color: yellow; }
+
+.iconB {
+  color: purple; }
+
+.iconNJS {
+  color: green; }
+
+.iconR {
+  color: #7fdbff; }
 
 ::-webkit-scrollbar {
   width: 2px; }

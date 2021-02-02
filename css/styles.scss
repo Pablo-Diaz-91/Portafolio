@@ -46,7 +46,7 @@ hr {
 .jumbotron {
     background-color: $background-jumbotron;
     color: $text-color;
-    margin-top: 40px;
+    margin: 40px auto 0;
 }
 
 .profile-img {
@@ -101,6 +101,33 @@ hr {
     padding: 20px 0;
 }
 
+.icon {
+    font-size: 8rem;
+}
+
+.iconHTML {
+    color: orange;
+}
+
+.iconCSS {
+    color:rgb(10, 180, 247);
+}
+
+.iconJS {
+    color: yellow;
+}
+
+.iconB {
+    color: purple;
+}
+
+.iconNJS {
+    color: green;
+}
+
+.iconR {
+    color:rgb(127, 219, 255);
+}
 
 //Scrollbars
 

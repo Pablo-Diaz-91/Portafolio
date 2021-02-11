@@ -1,57 +1,45 @@
-/*$background-nav: #000000;
-$background-body: #3a1818;
-$background-jumbotron: #ff0000;
-$background-card-footer: #cac1c1;
-$text-color: #fff;
-*/
+@import "variables";
+@import "globals";
 
-$background-nav: #1c6abe;
-$background-body: #142850;
-$background-jumbotron: #27496d;
-$background-footer: #1c6abe;
-$background-card-footer: #0c7b93;
-$text-color: #fff;
 
-/*tags*/
 
-body {
-    background-color: $background-body;
-    color: $text-color;
-}
 
-a {
-    color: $text-color;
-}
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: rgb(127, 219, 255);
-    border-width: 15px;
-    margin: 50px auto;
-    width: 15%;
-}
-
-/*classes*/
+/* navbar */
 
 .navbar {
     background-color: $background-nav;
     color: $text-color;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
 }
 
 .navbar-brand {
     padding: 0;
 }
 
+.nav-item {
+    padding: 0 30px;
+}
+
+/* header */
+
 .jumbotron {
     background-color: $background-jumbotron;
     color: $text-color;
-    margin: 40px auto 0;
+    margin: 40px auto;
 }
 
 .profile-img {
-    border-radius: 50%;
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: double;
     width: 50%;
+}
+
+/* Portfolio */
+#portfolio, #languages, #skillSet {
+    margin: 120px auto;
 }
 
 .card-body {
@@ -65,11 +53,66 @@ hr {
 
 .card-footer {
     background-color: $background-card-footer;
-    color: $text-color;
 }
 
-.skills-img {
-    width: 100%;
+/* Skills */
+.icon {
+    font-size: 8rem;
+
+    &-HTML {
+        color: orange;
+
+        &:hover{
+            color: rgb(248, 220, 167);
+        }
+    }
+    
+    &-CSS {
+        color: rgb(10, 180, 247);
+
+        &:hover{
+            color: rgb(165, 228, 253);
+        }
+    }
+
+    &-JS {
+        color: yellow;
+
+        &:hover{
+            color: rgb(255, 255, 196);
+        }
+    }
+
+    &-Bootstrap {
+        color: purple;
+
+        &:hover{
+            color: rgb(255, 206, 255);
+        }
+    }
+
+    &-NodeJS {
+        color: green;
+
+        &:hover{
+            color: rgb(164, 255, 164);
+        }
+    }
+
+    &-React {
+        color: rgb(127, 219, 255);
+
+        &:hover{
+            color: rgb(210, 242, 255);
+        }
+    }
+}
+
+/* Languages */
+
+.table {
+    width: 60%;
+    margin: auto;
 }
 
 .table-dark {
@@ -78,61 +121,36 @@ hr {
 
 .stars {
     text-align: start;
+    color: yellow;
 }
+
+/* Footer */
 
 .footer {
     background-color: $background-footer;
     padding: 50px 0 20px;
     text-align: center;
+
+    &-link {
+        margin: 10px 20px;
+
+        &:hover{
+            color: #EAF6F6;
+        }
+    }
+
+    &-p {
+        color: #EAF6F6;
+        font-size: 0.75rem;
+        padding: 20px 0;
+    }
 }
 
-.footer-link {
-    margin: 10px 20px;
-}
 
-.footer-link:hover {
-    color: #EAF6F6;
-    margin: 10px 20px;
-}
-
-.footer-p {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-}
-
-.icon {
-    font-size: 8rem;
-}
-
-.iconHTML {
-    color: orange;
-}
-
-.iconCSS {
-    color:rgb(10, 180, 247);
-}
-
-.iconJS {
-    color: yellow;
-}
-
-.iconB {
-    color: purple;
-}
-
-.iconNJS {
-    color: green;
-}
-
-.iconR {
-    color:rgb(127, 219, 255);
-}
-
-//Scrollbars
+/* Scrollbars */
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 6px;
 }
 
 /* Track */

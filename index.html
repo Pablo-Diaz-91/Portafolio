@@ -7,9 +7,18 @@
 
     <link rel="icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Londrina+Solid:wght@100;400;900&family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font-Awesome -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap, bootstrap-social -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    
+    <!-- Customized styles -->
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Pablo Díaz - portafolio</title>
@@ -21,10 +30,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="#jumbo" class="navbar-brand mr-auto ml-3"><img src="img/websiteLogo.png" alt="logo" width="160%"></a>
+            <a href="#jumbo" class="navbar-brand mr-auto"><img src="img/Logo.gif" alt="logo" width="10%"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="#portafolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item active"><a href="#portfolio" class="nav-link">Portfolio</a></li>
                     <li class="nav-item"><a href="#skillSet" class="nav-link">Skill set</a></li>
                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
@@ -36,143 +45,128 @@
     <header class="jumbotron" id="jumbo">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-7 pl-5">
+                <div class="col-12 col-lg-7 pl-3 text-center text-lg-left">
                     <h1>Pablo Díaz Cabrera</h1>
                     <h3>Front-End Developer</h3>
                     <p>Estudiante de Desarrollo Web y técnico en Seguridad Informática. Actualmente estudiando cursos de Full-stack pero pretendo especializarme en el área de Front-End. También soy aficionado a los idiomas y a las culturas, especialmente aquellas provenientes del Sudeste Asiático.</p>
                 </div>
-                <div class="col-12 col-sm-5 text-center">
+                <div class="col-12 col-lg-5 d-flex justify-content-center">
                     <img class="profile-img" src="img/Pablo Díaz CV 2020.jpg" alt="Pablo Díaz">
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- <main class="container-fluid"> -->
+    <main class="container">
         
         <!--Portafolio-->
-        <div class="container-fluid bg-portfolio">
-            <div class="container" id="portafolio">
-                <h2 class="text-center text-white mb-4">Portafolio</h2>
-
-                <div class="row row-cols-1 row-cols-md-3 g-4 text-white">
-
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project1">
-                            </div>
-                        </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">Ristorante ConFusion</h5>
-                            <p class="card-text">Description: Sitio Web realizado como parte del curso de Bootstrap 4 correspondiente a la
-                                especialización de Full-Stack Development with React dictado a través de cursera por la Universidad de Ciencia y
-                                Tecnología de Hong Kong. Se ha trabajado con las clases de bootstrap, estilos customizados, javascript,
-                                bootstrap-social, grunt, font-awesome, entre otras.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
+        <div id="portfolio">
+            
+            <h2 class="text-center text-white mb-4">Portafolio</h2>
+    
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-white">
+    
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project1">
                         </div>
                     </div>
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project2">
-                            </div>
-                        </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">Organizer</h5>
-                            <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
-                                doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo
-                                dolor
-                                ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo
-                                vel eum
-                                corporis hic, sint iure?</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">Ristorante ConFusion</h5>
+                        <p class="card-text">Description: Sitio Web realizado como parte del curso de Bootstrap 4 correspondiente a la especialización de Full-Stack Development with React dictado a través de cursera por la Universidad de Ciencia y Tecnología de Hong Kong. Se ha trabajado con las clases de bootstrap, estilos customizados, javascript, bootstrap-social, grunt, font-awesome, entre otras.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project2">
                         </div>
                     </div>
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project3">
-                            </div>
-                        </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">Personal Website</h5>
-                            <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
-                                doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo
-                                dolor
-                                ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo
-                                vel eum
-                                corporis hic, sint iure?</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">Organizer</h5>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
+                            doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo dolor
+                            ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo vel eum
+                            corporis hic, sint iure?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project3">
                         </div>
                     </div>
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project4">
-                            </div>
-                        </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">Rice shop online</h5>
-                            <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
-                                doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo
-                                dolor
-                                ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo
-                                vel eum
-                                corporis hic, sint iure?</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">Personal Website</h5>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
+                            doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo dolor
+                            ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo vel eum
+                            corporis hic, sint iure?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project4">
                         </div>
                     </div>
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project5">
-                            </div>
-                        </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">News</h5>
-                            <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
-                                doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo
-                                dolor
-                                ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo
-                                vel eum
-                                corporis hic, sint iure?</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">Rice shop online</h5>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
+                            doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo dolor
+                            ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo vel eum
+                            corporis hic, sint iure?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project5">
                         </div>
                     </div>
-                    <div class="col mb-4">
-                        <div class="card">
-                            <div class="img-container">
-                                <img class="card-img-top img-project" src="img/normal size.png" alt="project6">
-                            </div>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">News</h5>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
+                            doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo dolor
+                            ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo vel eum
+                            corporis hic, sint iure?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="img-container">
+                            <img class="card-img-top img-project" src="img/normal size.png" alt="project6">
                         </div>
-                        <div class="card-body bg-light text-dark overflow-hidden">
-                            <h5 class="card-title text-center">Filters</h5>
-                            <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
-                                doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo
-                                dolor
-                                ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo
-                                vel eum
-                                corporis hic, sint iure?</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <a href="#">View more</a>
-                        </div>
+                    </div>
+                    <div class="card-body bg-light text-dark overflow-hidden">
+                        <h5 class="card-title text-center">Filters</h5>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sequi
+                            doloremque, dolorem deleniti suscipit, totam officiis tenetur minima sunt a natus labore accusantium aperiam explicabo dolor
+                            ipsa alias? Aperiam officia quas ratione illum ad deserunt tempore dignissimos maxime esse amet ipsum architecto illo vel eum
+                            corporis hic, sint iure?</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">View more</a>
                     </div>
                 </div>
             </div>
         </div>
-        
 
         <hr>
 
@@ -180,28 +174,28 @@
         <div id="skillSet">
             <h2 class="text-center text-white mb-4">Skill set</h2>
             <div class="row text-center">
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-html5 icon iconHTML"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-html5 icon icon-HTML"></i>
                     <h3>HTML5</h3>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-css3-alt icon iconCSS"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-css3-alt icon icon-CSS"></i>
                     <h3>CSS3</h3>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-js-square icon iconJS"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-js-square icon icon-JS"></i>
                     <h3>JavaScript</h3>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-bootstrap icon iconB"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-bootstrap icon icon-Bootstrap"></i>
                     <h3>Bootstrap</h3>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-node-js icon iconNJS"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-node-js icon icon-NodeJS"></i>
                     <h3>NodeJS</h3>
                 </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <i class="fab fa-react icon iconR"></i>
+                <div class="col-6 col-md-4 col-lg-2 my-3">
+                    <i class="fab fa-react icon icon-React"></i>
                     <h3>React</h3>
                 </div>
             </div>
@@ -212,13 +206,13 @@
         <!--Languages-->
         <div id="languages">
             <h2 class="text-center text-white mb-4">Languages</h2>
-            <table class="table table-dark table-hover text-center mb-5">
+            <table class="table table-dark table-hover mb-5">
                 <thead class="thead-dark">
                     <th>Spanish</th>
-                    <th>
+                    <th class="text-right text-md-center">
                         Native speaker
                     </th>
-                    <th class="stars d-none d-sm-block">
+                    <th class="d-none d-md-block text-warning stars">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -229,10 +223,10 @@
                 </thead>
                 <tr>
                     <th>English</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Advanced (C1)
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -242,10 +236,10 @@
                 </tr>
                 <tr>
                     <th>Portuguese</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Advanced (C1)
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -255,10 +249,10 @@
                 </tr>
                 <tr>
                     <th>Thai</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Intermediate (B1)
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -266,36 +260,36 @@
                 </tr>
                 <tr>
                     <th>Japanese</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Basic (N5)
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                     </th>
                 </tr>
                 <tr>
                     <th>Italian</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Basic
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                     </th>
                 </tr>
                 <tr>
                     <th>Mandarin</th>
-                    <td>
+                    <td class="text-right text-md-center">
                         Basic
                     </td>
-                    <th class="stars d-none d-sm-block">
+                    <th class="stars d-none d-md-block">
                         <i class="fa fa-star"></i>
                     </th>
                 </tr>
             </table>
         </div>
 
-    <!-- </main> -->
 
+    </main>
     <footer class="footer">
         <a class="btn btn-social-icon btn-linkedin footer-link" href="http://www.linkedin.com/in/pablo-diaz-cabrera" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
         <a class="btn btn-social-icon btn-twitter footer-link" href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
